@@ -1,0 +1,148 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .header-img img {
+        border-radius: 32px 32px 0 0;
+      }
+
+      .quote-img img {
+        border-radius: 16px;
+      }
+
+      .video-img img {
+        border-radius: 16px;
+        width: 480px !important;
+        margin: 0 auto;
+        padding: 20px 0;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .btn {
+        background-color: #f48022;
+        border: #f48022;
+        color: #fff;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+
+      .btn:hover {
+        background-color: #f48022;
+        border: #f48022;
+        color: #fff;
+      }
+
+      .bottom-section {
+        border-radius: 0 0 32px 32px;
+        background-color: #fff;
+      }
+
+      .link {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .link:hover {
+        color: #000;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f2f2f2">
+    <mj-section padding="30px 0 0 0">
+      <mj-column>
+        <mj-image padding="0" css-class="header-img" href="https://www.ecamm.com/zoom/" src="http://127.0.0.1:5500/images/header-img.jpg" alt="ecamm for zoom" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding="0">
+      <mj-column>
+        <mj-text align="center" font-size="32px" font-weight="bold" line-height="32px" padding="20px 0 0 0">
+          Ecamm for Zoom is Available Now!
+        </mj-text>
+
+        <mj-text font-size="16px" line-height="24px" padding="16px 20px 0 20px" font-family="Arial">
+          Ecamm's newest release includes a full integration with Zoom, which allows you to:
+        </mj-text>
+
+        <mj-text font-size="16px" line-height="24px" padding="0 20px" font-family="Arial">
+          <ul>
+            <li><span class="bold">Add Zoom participants as camera sources</span> in your broadcast or recording. Up to eight Zoom participants can join in simply by joining your Zoom Meeting, Zoom Webinar, or Zoom Event.</li>
+            <li><span class="bold">Add Zoom chat messages</span> to your meeting broadcast/recording as text overlays.</li>
+            <li>Automatically send Ecamm Live’s audio and video output into a Zoom Meeting, Zoom Webinar, or Zoom Event.</li>
+            <li>Automatically create individual participant audio and video recordings (also called ISO recording) during a live stream or recording.</li>
+          </ul>
+        </mj-text>
+
+        <mj-text align="center" font-size="16px" line-height="24px" padding="0 20px 16px 20px" font-family="Arial">
+          <span class="bold italic">This new feature is out now</span> and we can't wait to see what you create.
+        </mj-text>
+
+        <mj-text padding="16px 0" align="center">
+          <a href="https://www.ecamm.com/zoom/" class="btn">
+            Try It Out
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding="10px 0">
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding="0 20px">
+      <mj-column>
+        <mj-image padding="0" css-class="quote-img" src="http://127.0.0.1:5500/images/quote-img.png" alt="Cat Mulvihill" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding="10px 0">
+      <mj-column>
+        <mj-text align="center" font-size="20px" font-weight="bold" line-height="24px" padding="20px 0 0 0" font-family="Verdana">
+          Ready to See Ecamm for Zoom In Action?
+        </mj-text>
+
+        <mj-text align="center" font-size="16px" line-height="24px" padding="16px 20px 0 20px" font-family="Arial">
+          We've partnered with Neil Farrimond to create some incredible video tutorials showcasing how the ease and power of this new feature.
+        </mj-text>
+
+        <mj-image href="https://www.youtube.com/watch?v=U0r_B1DVDOU&list=PLL6YwvbiQ6gBIViPCOZABD9zPLnwynqsd&index=10&ck_subscriber_id=1846082352&utm_source=convertkit&utm_medium=email&utm_campaign=Ecamm%20For%20Zoom%20is%20Here!%20-%2014089224" padding="0" css-class="video-img" src="http://127.0.0.1:5500/images/video-img.jpeg" alt="Cat Mulvihill" />
+
+        <mj-text font-size="16px" line-height="24px" padding="0 20px 10px 20px" font-family="Arial">
+          In this tutorial, we show you how easy it is to use Ecamm For Zoom to host, join, or manage your Zoom Meetings, Zoom Webinars, and Zoom Events. Everything you create in Ecamm, automatically shows up in Zoom, giving you the ability to completely customize your presentations, webinars, meetings, and more.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-divider width="560px" padding="10px 0" border-width="1px" border-color="#000" />
+
+    <mj-section css-class="bottom-section" padding="20px 0">
+      <mj-column>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f2f2f2" padding="40px 0">
+      <mj-column>
+        <mj-text align="center" font-size="14px" line-height="24px" padding="0 20px" font-family="Arial">
+          <a href="#" class="link">Get less emails</a> | <a href="#" class="link">Unsubscribe</a> | 1132 Salem St, North Andover, MA 01845
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
